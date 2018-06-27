@@ -1,0 +1,31 @@
+{
+  "name": "snapshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "jest": "*",
+    "react-test-renderer": "*",
+    "regenerator-runtime": "*"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
