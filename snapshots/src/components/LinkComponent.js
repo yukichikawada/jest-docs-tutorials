@@ -28,6 +28,7 @@ export default class LinkComponent extends React.Component {
   render() {
     return (
       <a className={this.state.status}
+        id="LinkComponent"
         href={this.props.page || '#'}
         onMouseEnter={this._onMouseEnter}
         onMouseLeave={this._onMouseLeave}
